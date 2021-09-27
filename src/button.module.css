@@ -1,0 +1,15 @@
+button.main {
+	background-color: var(--secondaryLight);
+}
+
+button.main:hover {
+	background-color: var(--secondary);
+}
+
+button.main:disabled {
+	background-color: var(--grey);
+}
+
+button.main:active {
+	background-color: var(--secondaryDark);
+}

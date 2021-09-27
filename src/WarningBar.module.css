@@ -1,0 +1,16 @@
+.root {
+	display: flex;
+	justify-content: space-between;
+	justify-items: self-end;
+	background-color: var(--secondaryLight);
+	font-weight: 900;
+	color: white;
+}
+
+.root.warning {
+	background-color: var(--error);
+}
+
+.root > p.closeButton {
+	padding: 0;
+}

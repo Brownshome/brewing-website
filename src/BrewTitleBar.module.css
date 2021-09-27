@@ -1,0 +1,13 @@
+.root {
+	position: sticky;
+	background-color: var(--white);
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttonBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}

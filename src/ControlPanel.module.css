@@ -1,0 +1,6 @@
+.root {
+	display: grid;
+	background-color: var(--grey);
+
+	grid: auto-flow / auto 1fr;
+}
